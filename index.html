@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Par ou Impar?</title>
+  </head>
+  <body>
+    <h1>Par ou Impar?</h1>
+    <p>
+      Digite um número inteiro, e descubra se ele é <strong>par</strong> ou
+      <strong>impar</strong>!
+    </p>
+    <form action="/cgi-bin/parOuImpar" method="GET">
+      <input
+        type="number"
+        name="number"
+        placeholder="Digite um número inteiro"
+      />
+      <button type="submit">Verificar</button>
+    </form>
+  </body>
+</html>
